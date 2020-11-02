@@ -54,11 +54,12 @@ body {
 .movie__data {
   color: gray;
   font-size: 15px;
+  font-weight: 300;
 }
 
 .movie .movie__title {
   color: black;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 23px;
   margin-bottom: 10px;
 }

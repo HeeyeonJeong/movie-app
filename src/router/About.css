@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about__desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  font-weight: 300;
+  background-color: white;
+  box-shadow: 10px 10px 18px -10px rgba(46, 10, 30, 0.3);
+}

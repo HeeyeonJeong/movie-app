@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav .nav__items {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  padding: 5px;
+  margin: 20px;
+}
+
+.nav .nav__items:hover {
+  text-decoration: underline;
+}
