@@ -17,11 +17,8 @@ body {
 
 .loader {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .movies {
@@ -30,6 +27,14 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   width: 75%;
+}
+
+.movie__link {
+  text-decoration: none;
+}
+
+.movie__link:hover {
+  text-decoration: underline;
 }
 
 .movies .movie {

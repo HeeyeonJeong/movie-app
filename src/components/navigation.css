@@ -1,6 +1,10 @@
 .nav {
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #eff3f7;
+  z-index: 1;
 }
 
 .nav .nav__items {

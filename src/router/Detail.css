@@ -1,0 +1,50 @@
+.box {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  font-weight: 300;
+}
+
+.detail__data {
+  max-width: 600px;
+}
+
+.detail__title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.detail__poster {
+  height: 500px;
+  margin-right: 50px;
+  box-shadow: 9px 8px 15px 3px rgba(0, 0, 0, 0.4);
+}
+
+.detail__poster img {
+  height: 100%;
+}
+
+.detail__year {
+  margin-left: 20px;
+  font-weight: 300;
+  float: left;
+}
+
+.detail__genres {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.genres__genre {
+  margin-right: 10px;
+}
+
+.detail__summary {
+  line-height: 1.5em;
+}
